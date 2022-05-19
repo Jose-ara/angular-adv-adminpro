@@ -12,6 +12,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -23,13 +25,16 @@ import { AcountSettingsComponent } from './acount-settings/acount-settings.compo
     Grafica1Component,
     PagesComponent,
     AcountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AcountSettingsComponent
+    AcountSettingsComponent,
+    PromesasComponent
   ],
   imports: [ 
     CommonModule,
